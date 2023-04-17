@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" /> -->
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <title>Rainbow Six: Siege Account Store</title>
+</head>
+
+<body>
+  <div style="color: red">THIS IS A WIP COPY, FUNCTIONALITY MAY AND WILL CHANGE</div>
+  <div><p>TO USE:</p>
+  <p>1. Enter master password</p>
+  <p>2. Now you are able to append user accounts</p>
+  </div>
+  <div id="info"></div>
+  <table id="accounts"></table>
+  <div>
+    <input style="width: 250px !important;" placeholder="Please enter master password" type="password"
+      id="master-pass" />
+    <button id="master-pass-input">Enter</button>
+  </div>
+  <div id="add-account-area">
+    <p>Add account</p>
+    <input placeholder="username" id="add-account-username" />
+    <input placeholder="password" id="add-account-password" />
+    <button id="add-account-btn">Add</button>
+  </div>
+</body>
+<script src="./renderer.js"></script>
+<script src="./callbacks.js"></script>
+
+</html>

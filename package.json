@@ -1,0 +1,15 @@
+{
+  "name": "r6-account-store",
+  "version": "1.0.0",
+  "description": "Storage for Rainbow 6: Siege accounts with stats tracking",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "k4rnaj1k",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.1.2"
+  }
+}
